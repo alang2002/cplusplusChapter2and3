@@ -9,12 +9,16 @@ string animal;
 string noun;
 string pluralNoun;
 
-int a = 86;
-int b = 55;
-int c = a - b;
+int a;
+int b;
+int c;
 
 int main()
 {
+	cout << "Enter a number: ";
+	cin >> a;
+	cout << "Enter a second number: ";
+	cin >> b;
 	cout << "Enter a color: ";
 	cin >> color;
 	cout << "Enter a word ending in 'est': ";
@@ -27,6 +31,8 @@ int main()
 	cin >> noun;
 	cout << "Enter a plural noun: ";
 	cin >> pluralNoun;
+
+	c = a - b;
 
 	cout << "The " << color << " Dragon is the " << wordEnding << " Dragon of all. It has " << c << " " << bodyPartPlural << ", and a " << animal << " shaped like a " << noun << ". It loves to eat "
 		<< pluralNoun << ", although it will feast on nearly anything." << endl;

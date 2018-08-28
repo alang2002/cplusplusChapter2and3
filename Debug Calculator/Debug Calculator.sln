@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debug Calculator", "Debug Calculator\Debug Calculator.vcxproj", "{80B5CF92-9892-4508-A4AD-EBF550A8FD70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Debug|x64.ActiveCfg = Debug|x64
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Debug|x64.Build.0 = Debug|x64
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Debug|x86.ActiveCfg = Debug|Win32
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Debug|x86.Build.0 = Debug|Win32
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Release|x64.ActiveCfg = Release|x64
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Release|x64.Build.0 = Release|x64
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Release|x86.ActiveCfg = Release|Win32
+		{80B5CF92-9892-4508-A4AD-EBF550A8FD70}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {779A7CC3-F4BC-4D7F-8E10-42C360417278}
+	EndGlobalSection
+EndGlobal
