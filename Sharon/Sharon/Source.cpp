@@ -18,7 +18,7 @@ int main()
 	cin >> percentageDeposited;
 
 	percentageDeposited = percentageDeposited / 100;
-	totalDeposited = percentageDeposited * grossPay;
+	totalDeposited = (percentageDeposited * grossPay) + bonusDeposit;
 
 	cout << "The total amount in your savings account now is: $" << totalDeposited << "." << endl;
 
